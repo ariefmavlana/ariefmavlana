@@ -1,0 +1,43 @@
+# Generates assets/metrics.svg from your GitHub data and commits it to the repo.
+# Because the image lives in YOUR repo, it can't break when a third-party
+# stats server goes down or hits rate limits.
+#
+# Setup:
+#   1. Create a personal access token (classic) with scopes: read:org, read:user, repo
+#      (use the minimum your metrics need; public-only metrics need fewer).
+#   2. Repo -> Settings -> Secrets and variables -> Actions -> New secret
+#      Name: METRICS_TOKEN
+#   3. Actions tab -> "Metrics" -> Run workflow.
+name: Metrics
+
+on:
+  schedule:
+    - cron: "0 3 * * *"   # daily, 03:00 UTC
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest   # tip: pin to a specific release tag once it works
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: ariefmavlana
+          template: classic
+          filename: assets/metrics.svg
+          committer_branch: main
+          base: header, activity, community, repositories, metadata
+          config_timezone: Asia/Jakarta
+          plugin_languages: yes
+          plugin_languages_sections: most-used
+          plugin_languages_limit: 8
+          plugin_languages_indepth: no
+          plugin_habits: yes
+          plugin_habits_from: 200
+          plugin_habits_days: 14
+          plugin_habits_charts: yes
