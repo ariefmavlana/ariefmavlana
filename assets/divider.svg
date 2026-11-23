@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="8" viewBox="0 0 1000 8" role="presentation" aria-hidden="true">
+  <defs><linearGradient id="beam"><stop stop-color="#58a6ff" stop-opacity="0"/><stop offset=".5" stop-color="#58a6ff"/><stop offset="1" stop-color="#58a6ff" stop-opacity="0"/></linearGradient></defs>
   <style>
-    .line { stroke: #d4d9d2; }
-    .sweep { fill: #526b50; animation: sweep 10s ease-in-out infinite; }
-    @keyframes sweep { 0%, 12% { transform: translateX(0); opacity: 0; } 22%, 78% { opacity: 1; } 90%, 100% { transform: translateX(936px); opacity: 0; } }
-    @media (prefers-color-scheme: dark) { .line { stroke: #39443b; } .sweep { fill: #a4bc98; } }
-    @media (prefers-reduced-motion: reduce) { .sweep { animation: none; opacity: 0; } }
+    .line { stroke: #d0d7de; } .beam { animation: sweep 5s linear infinite; }
+    @keyframes sweep { from { transform: translateX(-200px); } to { transform: translateX(1000px); } }
+    @media (prefers-color-scheme: dark) { .line { stroke: #30363d; } }
+    @media (prefers-reduced-motion: reduce) { .beam { animation: none; display: none; } }
   </style>
   <path class="line" d="M0 4H1000" fill="none"/>
-  <rect class="sweep" y="3" width="64" height="2"/>
+  <rect class="beam" y="2.5" width="200" height="3" fill="url(#beam)"/>
 </svg>

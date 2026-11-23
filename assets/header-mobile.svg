@@ -1,47 +1,74 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="600" height="360" viewBox="0 0 600 360" role="img" aria-labelledby="title description">
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="330" viewBox="0 0 600 330" role="img" aria-labelledby="title description">
   <title id="title">Arief Maulana — Full-Stack Developer</title>
-  <desc id="description">Based in Bandung, Indonesia. Web applications, from interface to deployment. mavlana.space.</desc>
+  <desc id="description">Bandung, Indonesia. Full-stack web development, Python and TypeScript systems, applied AI and agent workflows, and interfaces with motion. mavlana.space.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1"><stop stop-color="#0d1117"/><stop offset="1" stop-color="#102a46"/></linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#58a6ff" stroke-opacity=".15"/></pattern>
+    <clipPath id="frame"><rect width="600" height="330" rx="12"/></clipPath>
+    <clipPath id="line-0"><rect class="typing" style="--chars:26;animation-delay:0s" y="-27" width="374.4" height="36"/></clipPath><clipPath id="line-1"><rect class="typing" style="--chars:27;animation-delay:6s" y="-27" width="388.8" height="36"/></clipPath><clipPath id="line-2"><rect class="typing" style="--chars:28;animation-delay:12s" y="-27" width="403.2" height="36"/></clipPath><clipPath id="line-3"><rect class="typing" style="--chars:22;animation-delay:18s" y="-27" width="316.8" height="36"/></clipPath>
+  </defs>
   <style>
-    .surface { fill: #f6f5f1; }
-    .ink { fill: #222824; }
-    .muted { fill: #576159; }
-    .rule { stroke: #d4d9d2; }
-    .accent { fill: #526b50; }
     text { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; }
-    @media (prefers-color-scheme: dark) {
-      .surface { fill: #161b18; }
-      .ink { fill: #f1f3ed; }
-      .muted { fill: #b1bcb1; }
-      .rule { stroke: #39443b; }
-      .accent { fill: #a4bc98; }
-    }
-    .name { animation: enter 700ms ease-out both; }
-    .primary { animation: primary 16s ease-in-out infinite; }
-    .secondary { opacity: 0; animation: secondary 16s ease-in-out infinite; }
-    .sweep { animation: sweep 9s ease-in-out infinite; }
-    @keyframes enter { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
-    @keyframes primary { 0%, 40%, 100% { opacity: 1; } 44%, 98% { opacity: 0; } }
-    @keyframes secondary { 0%, 46%, 96%, 100% { opacity: 0; } 50%, 92% { opacity: 1; } }
-    @keyframes sweep { 0%, 15% { transform: translateX(0); opacity: 0; } 25%, 75% { opacity: 1; } 90%, 100% { transform: translateX(500px); opacity: 0; } }
+    .mono, .type text { font-family: Consolas, 'Liberation Mono', monospace; }
+    .name { fill: #f0f6fc; animation: float 6s ease-in-out infinite; }
+    .grid { animation: drift 12s linear infinite; }
+    .orbit { fill: none; stroke: #58a6ff; stroke-width: 1.3; transform-origin: 0 0; animation: orbit 16s linear infinite; }
+    .orbit-two { animation-direction: reverse; animation-duration: 20s; }
+    .orbit-three { animation-duration: 24s; }
+    .core { fill: #79c0ff; animation: pulse 3s ease-in-out infinite; }
+    .type { fill: #79c0ff; }
+    .line { opacity: 0; animation: visible 24s steps(1, end) infinite; }
+    .first { opacity: 1; }
+    .typing { transform: scaleX(0); animation: type 6s steps(var(--chars), end) infinite; }
+    .cursor { fill: #58a6ff; animation: cursor 6s steps(var(--chars), end) infinite, blink 800ms steps(1, end) infinite; }
+    .rail { fill: #58a6ff; animation: rail 5s linear infinite; }
+    @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-3px); } }
+    @keyframes drift { to { transform: translate(40px, 40px); } }
+    @keyframes orbit { to { transform: rotate(360deg); } }
+    @keyframes pulse { 0%, 100% { opacity: .65; } 50% { opacity: 1; } }
+    @keyframes visible { 0%, 24.99% { opacity: 1; } 25%, 100% { opacity: 0; } }
+    @keyframes type { 0%, 100% { transform: scaleX(0); } 28%, 76% { transform: scaleX(1); } 90% { transform: scaleX(0); } }
+    @keyframes cursor { 0%, 90%, 100% { transform: translateX(0); } 28%, 76% { transform: translateX(var(--line-width)); } }
+    @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+    @keyframes rail { from { transform: translateX(-160px); } to { transform: translateX(600px); } }
     @media (prefers-reduced-motion: reduce) {
-      .name, .primary, .secondary, .sweep { animation: none; }
-      .sweep { opacity: 0; }
+      .name, .grid, .orbit, .core, .line, .typing, .cursor, .rail { animation: none; }
+      .line { opacity: 0; } .first { opacity: 1; } .typing { transform: scaleX(1); } .cursor, .rail { display: none; }
     }
   </style>
-  <rect class="surface" width="600" height="360" rx="4"/>
-  <rect class="accent" x="28" y="29" width="4" height="18"/>
-  <text class="muted" x="45" y="44" font-size="19" font-weight="600" letter-spacing="1.3">FULL-STACK DEVELOPER</text>
-  <text class="ink name" x="24" y="130" font-size="65" font-weight="600" letter-spacing="-2.5">Arief Maulana</text>
-  <g class="muted primary" font-size="24">
-    <text x="28" y="176">Web applications, from</text>
-    <text x="28" y="210">interface to deployment.</text>
+  <g clip-path="url(#frame)">
+    <rect width="600" height="330" fill="url(#background)"/>
+    <rect class="grid" x="-40" y="-40" width="680" height="410" fill="url(#grid)"/>
+    <rect x=".5" y=".5" width="599" height="329" rx="11.5" fill="none" stroke="#388bfd" stroke-opacity=".25"/>
+    <text class="mono" x="28" y="43" font-size="16" letter-spacing="1.4" fill="#8b949e">FULL-STACK DEVELOPER</text>
+    <text class="name" x="25" y="119" font-size="60" font-weight="700" letter-spacing="-2">Arief Maulana</text>
+    <g class="type" transform="translate(28 190)">
+  <g class="line first" style="animation-delay:0s;--line-width:374.4px;--chars:26" aria-hidden="true">
+    <text clip-path="url(#line-0)" y="0" font-size="24" textLength="374.4" lengthAdjust="spacingAndGlyphs">Full-stack web development</text>
+    <rect class="cursor" style="animation-delay:0s,0s" y="-24" width="2" height="29"/>
   </g>
-  <g class="muted secondary" font-size="24" aria-hidden="true">
-    <text x="28" y="176">Full-stack systems</text>
-    <text x="28" y="210">and applied AI.</text>
+  <g class="line" style="animation-delay:6s;--line-width:388.8px;--chars:27" aria-hidden="true">
+    <text clip-path="url(#line-1)" y="0" font-size="24" textLength="388.8" lengthAdjust="spacingAndGlyphs">Python + TypeScript systems</text>
+    <rect class="cursor" style="animation-delay:6s,6s" y="-24" width="2" height="29"/>
   </g>
-  <path class="rule" d="M28 246H572" fill="none"/>
-  <rect class="accent sweep" x="28" y="245" width="44" height="2"/>
-  <text class="muted" x="28" y="283" font-size="21">Bandung, Indonesia</text>
-  <text class="ink" x="28" y="324" font-size="21" font-weight="600">mavlana.space</text>
+  <g class="line" style="animation-delay:12s;--line-width:403.2px;--chars:28" aria-hidden="true">
+    <text clip-path="url(#line-2)" y="0" font-size="24" textLength="403.2" lengthAdjust="spacingAndGlyphs">Applied AI + agent workflows</text>
+    <rect class="cursor" style="animation-delay:12s,12s" y="-24" width="2" height="29"/>
+  </g>
+  <g class="line" style="animation-delay:18s;--line-width:316.8px;--chars:22" aria-hidden="true">
+    <text clip-path="url(#line-3)" y="0" font-size="24" textLength="316.8" lengthAdjust="spacingAndGlyphs">Interfaces with motion</text>
+    <rect class="cursor" style="animation-delay:18s,18s" y="-24" width="2" height="29"/>
+  </g>
+    </g>
+    <g transform="translate(534 66)" aria-hidden="true">
+      <g class="orbit"><ellipse rx="28" ry="9.5" opacity=".7"/><circle cx="28" r="3" fill="#79c0ff" stroke="none"/></g>
+      <g transform="rotate(60)"><g class="orbit orbit-two"><ellipse rx="28" ry="9.5" opacity=".45"/><circle cx="-28" r="3" fill="#a5d6ff" stroke="none"/></g></g>
+      <g transform="rotate(120)"><g class="orbit orbit-three"><ellipse rx="28" ry="9.5" opacity=".35"/><circle cx="28" r="2.5" fill="#388bfd" stroke="none"/></g></g>
+      <circle class="core" r="5"/>
+    </g>
+    <path d="M28 258H572" stroke="#303f50"/>
+    <text class="mono" x="28" y="303" font-size="19" fill="#a5b5c7">Bandung, Indonesia</text>
+    <text class="mono" x="572" y="303" text-anchor="end" font-size="19" fill="#79c0ff">mavlana.space</text>
+    <rect class="rail" y="328" width="160" height="2"/>
+  </g>
 </svg>

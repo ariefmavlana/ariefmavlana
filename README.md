@@ -3,6 +3,11 @@
   <img width="100%" alt="Arief Maulana — Full-Stack Developer, Bandung, Indonesia" src="./assets/header.svg" />
 </picture>
 
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/stack-mobile.svg" />
+  <img width="100%" alt="Animated tech stack: Python, TypeScript, React, Next.js, Vue, Nuxt, Tailwind CSS, GSAP, Django, FastAPI, Node.js, PostgreSQL, SQLAlchemy, Prisma, Docker, MCP" src="./assets/stack.svg" />
+</picture>
+
 [**Portfolio**](https://mavlana.space) · [LinkedIn](https://www.linkedin.com/in/arief-maulana-330142137) · [Repositories](https://github.com/ariefmavlana?tab=repositories)
 
 I build **web applications with Python and TypeScript**, from interfaces and APIs to deployment. My work spans event platforms, business websites, and tools for AI-assisted engineering.
@@ -33,17 +38,6 @@ I build **web applications with Python and TypeScript**, from interfaces and API
 
 <img width="100%" alt="" src="./assets/divider.svg" />
 
-## Technical focus
-
-<picture>
-  <source media="(max-width: 600px)" srcset="./assets/stack-mobile.svg" />
-  <img width="100%" alt="Python, Django, FastAPI; TypeScript, React, Next.js; PostgreSQL, Docker, Linux" src="./assets/stack.svg" />
-</picture>
-
-**Also working with:** Vue / Nuxt · Tailwind CSS · SQLAlchemy · Prisma · Three.js · GSAP · MCP · CrewAI.
-
-<img width="100%" alt="" src="./assets/divider.svg" />
-
 ## How I work
 
 - Keep scope small, boundaries clear, and dependencies deliberate.
@@ -57,9 +51,9 @@ I build **web applications with Python and TypeScript**, from interfaces and API
 <!-- Refresh with Node.js 24+: node scripts/update-snake.mjs. -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ariefmavlana/ariefmavlana/output/github-snake-dark.svg?v=2" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ariefmavlana/ariefmavlana/output/github-snake.svg?v=2" />
-  <img width="100%" alt="Animated snake tracing my GitHub contribution graph" src="https://raw.githubusercontent.com/ariefmavlana/ariefmavlana/output/github-snake.svg?v=2" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ariefmavlana/ariefmavlana/output/github-snake-dark.svg?v=3" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ariefmavlana/ariefmavlana/output/github-snake.svg?v=3" />
+  <img width="100%" alt="Animated snake tracing my GitHub contribution graph" src="https://raw.githubusercontent.com/ariefmavlana/ariefmavlana/output/github-snake.svg?v=3" />
 </picture>
 
 <img width="100%" alt="" src="./assets/divider.svg" />
