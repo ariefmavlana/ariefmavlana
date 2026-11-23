@@ -1,305 +1,132 @@
-<!--
-  Profile README for github.com/ariefmavlana
-  Version: 2026-11 (comprehensive edition)
-  Maintenance: review quarterly (checklist at the bottom of this file).
-  Rule of thumb: every claim on this page should be something you can back up in a conversation.
--->
-
-<div align="center">
+<!-- Profile README for github.com/ariefmavlana. Keep project descriptions grounded in shipped work and public source. -->
 
 <picture>
   <source media="(max-width: 600px)" srcset="./assets/header-mobile.svg" />
   <img width="100%" alt="Arief Maulana — Full-Stack Developer, Bandung, Indonesia" src="./assets/header.svg" />
 </picture>
 
+<p>
+  <a href="https://mavlana.space"><strong>View portfolio</strong></a> &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/arief-maulana-330142137">LinkedIn</a> &nbsp;·&nbsp;
+  <a href="#selected-work">Selected work</a> &nbsp;·&nbsp;
+  <a href="#engineering-approach">Engineering approach</a>
+</p>
+
+I build **web applications with Python and TypeScript**, from interfaces and APIs to data models and deployment. Based in **Bandung, Indonesia**, my work spans event platforms, business websites, and engineering tools for AI-assisted development.
+
+My focus is on maintainable systems, clear user experiences, and decisions that another engineer can understand and review.
+
+## Selected work
+
+A selection of web products, public source code, and reusable engineering guidance.
+
+### Celeparty
+
+Event platform bringing together **event tickets, equipment rentals, and vendor services** in one place.
+
+<a href="https://celeparty.com/">
+  <img width="100%" src="./assets/projects/celeparty.jpg" alt="Celeparty interface showing event discovery and equipment rental navigation" />
+</a>
+
+[Visit Celeparty →](https://celeparty.com/)
+
+### Engineering tools & applications
+
+| Project & links | What to explore |
+| :-- | :-- |
+| **[MAVL Skills](https://github.com/ariefmavlana/mavl-skills)** | Versioned engineering practices, agent guidance, and templates for full-stack and AI-assisted development. |
+| **[Mavlana Car Dealer](https://github.com/ariefmavlana/mavlana-cardealer)** | Vehicle catalog website built with TypeScript and Next.js, with Cloudflare tooling. |
+| **Mavlana Weather** · [Demo](https://mavlana-weather.vercel.app/) · [Source](https://github.com/ariefmavlana/mavlana-weather) | Weather dashboard with forecasts and air-quality views. The map currently displays a provider API-key watermark. |
+| **[Mavlana Coin](https://github.com/ariefmavlana/mavlana-coin)** | Cryptocurrency price and trend tracker built with Next.js and Tailwind CSS. |
+
+### Websites & interactive studies
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://inprime-studio.vercel.app/"><img width="100%" src="./assets/projects/inprime-studio.jpg" alt="inPrime Studio photography and film portfolio preview" /><br /><strong>inPrime Studio</strong></a><br />
+      <sub>Photography, film, and visual production.</sub>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://kadatuan-koffie.vercel.app/"><img width="100%" src="./assets/projects/kadatuan-koffie.jpg" alt="Kadatuan Koffie coffee brand website preview" /><br /><strong>Kadatuan Koffie</strong></a><br />
+      <sub>Java Preanger coffee, origins, and farming.</sub>
+    </td>
+  </tr>
+</table>
+
+| Project | What to explore |
+| :-- | :-- |
+| [**3D Portfolio**](https://3d-mavlana-portfolio.vercel.app/) | An interactive 3D portfolio with an avatar-led presentation. |
+| [**GSAP Study**](https://gsap-mavlana.vercel.app/) | An animation-focused web experiment. |
+| [**GSAP Portfolio**](https://mavlana-portfolio-gsap.vercel.app/) | A typography-led portfolio exploring motion and page transitions. |
+| [**Personal portfolio**](https://mavlana.space) | React, JavaScript, Tailwind CSS, and Three.js. [Source](https://github.com/ariefmavlana/mavlana-arief). |
+
+<details>
+<summary>Additional project: Stock Tracker</summary>
+
+[**Mavlana Stock Tracker**](https://mavlana-stock-tracker.vercel.app/) — a stock-tracking application. The demo returned HTTP 500 when checked on 23 November 2026. [Browse the source](https://github.com/ariefmavlana/mavlana-stock_tracker).
+
+</details>
+
+[Browse all repositories →](https://github.com/ariefmavlana?tab=repositories)
+
+## Technical focus
+
 <picture>
   <source media="(max-width: 600px)" srcset="./assets/stack-mobile.svg" />
   <img width="100%" alt="Core stack: Python, Django, FastAPI, TypeScript, React, Next.js, PostgreSQL, Docker, Linux" src="./assets/stack.svg" />
 </picture>
 
-<br />
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-mavlana.space-1f6feb?style=for-the-badge&logo=googlechrome&logoColor=white)](https://mavlana.space)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Arief%20Maulana-0a66c2?style=for-the-badge)](https://www.linkedin.com/in/arief-maulana-330142137)
-[![TikTok](https://img.shields.io/badge/TikTok-@ariefmavlana-000000?style=for-the-badge&logo=tiktok&logoColor=white)](https://www.tiktok.com/@ariefmavlana)
-[![Followers](https://img.shields.io/github/followers/ariefmavlana?style=for-the-badge&logo=github&label=Followers&color=161b22)](https://github.com/ariefmavlana?tab=followers)
-
-<sub>
-  <a href="#about">About</a> ·
-  <a href="#focus-areas">Focus</a> ·
-  <a href="#tech-stack">Stack</a> ·
-  <a href="#selected-work">Work</a> ·
-  <a href="#engineering-principles">Principles</a> ·
-  <a href="#ai-assisted-workflow">AI workflow</a> ·
-  <a href="#ask-me-about">Ask me about</a> ·
-  <a href="#content">Content</a> ·
-  <a href="#lets-connect">Connect</a>
-</sub>
-
-</div>
-
-<br />
-
-## About
-
-I'm **Arief Maulana**, a **full-stack developer** based in **Bandung, Indonesia**. I build web applications, from interfaces and APIs to data models and deployment, with an emphasis on maintainability and a clear user experience.
-
-My work spans event platforms, business websites, and web applications. I also develop **AI-assisted engineering workflows** and reusable guidance through [MAVL Skills](https://github.com/ariefmavlana/mavl-skills), while exploring **applied machine learning** and **IoT**.
-
-| | |
+| Area | Technologies & practices |
 | :-- | :-- |
-| 📍 **Based in** | Bandung, Indonesia |
-| 🧭 **Core focus** | Full-stack product engineering · AI-enabled development |
-| 🛠️ **Primary stack** | Python (Django, FastAPI) · TypeScript (React, Next.js, Vue/Nuxt) |
-| 🔬 **Exploring** | Agentic systems · applied ML · IoT |
-| 💬 **Happy to talk about** | Software architecture, developer experience, AI-assisted engineering |
-
-<br />
-
-<img width="100%" alt="" src="./assets/divider.svg" />
-
-## Focus areas
-
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <h3>🧱 Product engineering</h3>
-      Thoughtful web experiences built for real users, from first prototype to production, with attention to UX, performance, and accessibility.
-    </td>
-    <td width="33%" valign="top">
-      <h3>⚙️ Full-stack systems</h3>
-      APIs, data models, authentication, background jobs, and deployment designed as one coherent system rather than disconnected parts.
-    </td>
-    <td width="33%" valign="top">
-      <h3>🤖 AI-enabled development</h3>
-      Agent workflows, reusable engineering guidance, and tooling with explicit requirements, verification, and review.
-    </td>
-  </tr>
-</table>
-
-<br />
-
-<img width="100%" alt="" src="./assets/divider.svg" />
-
-## Tech stack
-
-<table>
-  <tr>
-    <td width="170"><b>Languages</b></td>
-    <td><img alt="Languages" src="https://skillicons.dev/icons?i=py,ts,js,java,html,css&perline=12" /></td>
-  </tr>
-  <tr>
-    <td><b>Backend</b></td>
-    <td><img alt="Backend frameworks" src="https://skillicons.dev/icons?i=django,fastapi,flask,nodejs,express,nestjs,spring&perline=12" /></td>
-  </tr>
-  <tr>
-    <td><b>Frontend</b></td>
-    <td><img alt="Frontend frameworks" src="https://skillicons.dev/icons?i=react,nextjs,vue,nuxt,tailwind,bootstrap,jquery,vite&perline=12" /></td>
-  </tr>
-  <tr>
-    <td><b>Data</b></td>
-    <td><img alt="Databases and ORMs" src="https://skillicons.dev/icons?i=postgres,prisma&perline=12" /></td>
-  </tr>
-  <tr>
-    <td><b>ML and IoT</b></td>
-    <td><img alt="ML and IoT" src="https://skillicons.dev/icons?i=pytorch,tensorflow,arduino,raspberrypi&perline=12" /></td>
-  </tr>
-  <tr>
-    <td><b>Infrastructure</b></td>
-    <td><img alt="Infrastructure" src="https://skillicons.dev/icons?i=docker,nginx,linux,git,github,githubactions&perline=12" /></td>
-  </tr>
-  <tr>
-    <td><b>Tooling</b></td>
-    <td><img alt="Tooling" src="https://skillicons.dev/icons?i=vscode,figma,bun,pnpm,npm&perline=12" /></td>
-  </tr>
-</table>
+| **Backend & APIs** | Python · Django / DRF · FastAPI · SQLAlchemy · Node.js |
+| **Frontend** | TypeScript · JavaScript · React · Next.js · Vue / Nuxt · Tailwind CSS |
+| **Data & delivery** | PostgreSQL · Prisma · Docker · Nginx · Linux · Git |
+| **Applied AI** | LLM-powered features · Model Context Protocol · CrewAI · Agent workflows |
+| **Interactive web** | Three.js · GSAP |
 
 <details>
-<summary><b>Full breakdown (click to expand)</b></summary>
-<br />
+<summary>Further experience & current exploration</summary>
 
-**Backend and APIs**
-Django · Django REST Framework · FastAPI · Flask · SQLAlchemy · Node.js · Express · NestJS · Java Spring Boot · JWT-based authentication
-
-**Frontend**
-React · Next.js · TypeScript · Vue · Nuxt · TanStack · Tailwind CSS · Bootstrap · HTMX · Alpine.js · jQuery · shadcn/ui
-
-**Data and persistence**
-PostgreSQL · Prisma · SQLAlchemy ORM patterns
-
-**AI and agentic systems**
-CrewAI · Model Context Protocol (MCP) · LLM-powered application features · AI coding agents (see [AI-assisted workflow](#ai-assisted-workflow))
-
-**Delivery and tooling**
-Docker · Nginx · Linux · Git · GitHub Actions · `uv` · `pnpm` · `bun` · `npm`
-
-![uv](https://img.shields.io/badge/uv-DE5FE9?style=flat-square)
-![pnpm](https://img.shields.io/badge/pnpm-F69220?style=flat-square&logo=pnpm&logoColor=white)
-![HTMX](https://img.shields.io/badge/HTMX-3D72D7?style=flat-square&logo=htmx&logoColor=white)
-![Alpine.js](https://img.shields.io/badge/Alpine.js-8BC0D0?style=flat-square&logo=alpinedotjs&logoColor=black)
-![CrewAI](https://img.shields.io/badge/CrewAI-FF5A50?style=flat-square)
-![MCP](https://img.shields.io/badge/MCP-1f6feb?style=flat-square)
-
-**Version philosophy:** I default to LTS releases for anything that has to stay stable in production, and I deliberately track newer releases so upgrades are informed rather than forced.
+- **Other frameworks:** Flask, Express, NestJS, Spring Boot, HTMX, Alpine.js, and shadcn/ui.
+- **Development tools:** uv, pnpm, Bun, npm, Figma, and VS Code.
+- **Exploring:** applied machine learning with PyTorch / TensorFlow, plus Arduino and Raspberry Pi projects.
 
 </details>
 
-<br />
+## Engineering approach
 
-<img width="100%" alt="" src="./assets/divider.svg" />
+- **Start with the problem.** Inspect the existing system, clarify the scope, and define what a successful change needs to do.
+- **Keep boundaries clear.** Make interfaces, validation, authentication, data access, and deployment understandable to the next maintainer.
+- **Verify the result.** Use focused tests, type checks, builds, and review where they provide meaningful evidence.
+- **Make trade-offs reviewable.** Prefer small changes, deliberate dependencies, and documentation that explains important decisions.
 
-## Selected work
+### AI-assisted engineering
 
-Projects from my [portfolio](https://mavlana.space), with website and source links where available.
+I use coding agents with explicit requirements, repository context, and review. I check generated changes against the existing design and remain accountable for what ships. [MAVL Skills](https://github.com/ariefmavlana/mavl-skills) collects the reusable guidance behind that workflow.
 
-| Project | What it does | Explore |
-| :-- | :-- | :-- |
-| **Celeparty** | Event platform bringing together event tickets, equipment rentals, and vendor services. | [Website](https://celeparty.com/) |
-| **Kadatuan Koffie** | Coffee brand website presenting Java Preanger products, coffee origins, and sustainable farming practices. | [Website](https://kadatuan-koffie.vercel.app/) |
-| **inPrime Studio** | Photography and film studio portfolio showcasing selected work and visual production services. | [Website](https://inprime-studio.vercel.app/) |
-| **Mavlana Car Dealer** | Vehicle catalog website built with TypeScript and Next.js, with Cloudflare tooling. | [Source](https://github.com/ariefmavlana/mavlana-cardealer) |
-| **Mavlana Weather** | Weather application built with Next.js and the OpenWeather API. | [Demo](https://mavlana-weather.vercel.app/) · [Source](https://github.com/ariefmavlana/mavlana-weather) |
-| **Mavlana Coin** | Cryptocurrency price and trend tracker built with Next.js and Tailwind CSS. | [Source](https://github.com/ariefmavlana/mavlana-coin) |
-| **MAVL Skills** | Versioned engineering practices and reusable guidance for full-stack and AI-assisted development. | [Source](https://github.com/ariefmavlana/mavl-skills) |
-| **Personal portfolio** | React, JavaScript, Tailwind CSS, and Three.js portfolio. | [Website](https://mavlana.space) · [Source](https://github.com/ariefmavlana/mavlana-arief) |
+## Activity
 
-[Browse more repositories →](https://github.com/ariefmavlana?tab=repositories)
+<!-- Refresh with Node.js 24+: node scripts/update-snake.mjs. Requires GitHub authentication and a configured Git commit identity. Publishes to origin/output without GitHub Actions. -->
 
-<details>
-<summary><b>On my radar</b></summary>
-<br />
-
-- A web-based whiteboard in the spirit of Excalidraw, built with Vue/Nuxt, with AI-assisted text-to-diagram generation (currently in design)
-- Deeper agent-based automation for engineering workflows
-- Applied ML experiments connected to IoT data
-
-</details>
-
-<br />
-
-<img width="100%" alt="" src="./assets/divider.svg" />
-
-## Engineering principles
-
-1. **Start small and explicit.** A clear problem, a small scope, and a written definition of done before any code.
-2. **Make decisions reviewable.** Understandable architecture, useful documentation, and trade-offs written down so the next person can disagree intelligently.
-3. **Treat quality as delivery, not cleanup.** Testing, security, and maintainability are built in from the first commit.
-4. **Design the boundaries first.** Frontend, backend, data, and deployment should each have a clear contract, so any one of them can change without breaking the others.
-5. **Secure by default.** Least privilege, validated input, secrets out of the repo, and authentication designed up front rather than bolted on.
-6. **Prefer boring, durable technology.** LTS runtimes, self-hosted assets where it makes sense, and dependencies I'm willing to maintain.
-7. **Document like a professional.** Specifications, architecture notes, and runbooks written to the standard a client or auditor would expect.
-
-<br />
-
-<img width="100%" alt="" src="./assets/divider.svg" />
-
-## AI-assisted workflow
-
-I treat AI coding agents as part of the engineering toolchain, with the same expectations as any other tool: they should be configured, constrained, and reviewed.
-
-<details>
-<summary><b>How I work with AI agents (click to expand)</b></summary>
-<br />
-
-- **Agentic coding tools:** Google Antigravity CLI and OpenCode as my main agents.
-- **Role-based agent setups:** a lead → coder → reviewer hierarchy, so planning, implementation, and review stay separate.
-- **MCP servers in daily use:** context7 for up-to-date library docs, git, sequential-thinking, and PostgreSQL.
-- **Reusable skills and guidance:** a library of engineering practices that agents follow, which is the idea behind [MAVL Skills](https://github.com/ariefmavlana/mavl-skills).
-- **Verification and review:** explicit definitions of done, validation criteria, and review before merge. I stay accountable for the result.
-- **UI quality bar:** consistent typography, spacing, interaction, and accessibility, reviewed against the needs of each product.
-
-</details>
-
-<br />
-
-<img width="100%" alt="" src="./assets/divider.svg" />
-
-## Contribution snake
-
-<!-- Refresh from the repository root with Node.js 24+: node scripts/update-snake.mjs. GitHub authentication and a configured Git commit identity are required. Publishes generated SVGs to origin/output without GitHub Actions. -->
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ariefmavlana/ariefmavlana/output/github-snake-dark.svg?v=1" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ariefmavlana/ariefmavlana/output/github-snake.svg?v=1" />
-    <img alt="Animated snake eating my GitHub contribution graph" src="https://raw.githubusercontent.com/ariefmavlana/ariefmavlana/output/github-snake.svg?v=1" width="100%" />
-  </picture>
-</div>
-
-<br />
-
-<!--
-  OPTIONAL: self-generated metrics (recommended for long-term stability).
-  1. Keep .github/workflows/metrics.yml in this repository.
-  2. Add a repository secret named METRICS_TOKEN (personal access token).
-  3. Run the "Metrics" workflow once and confirm assets/metrics.svg exists.
-  4. Remove this comment wrapper.
-
-## GitHub activity
-
-<div align="center">
-  <img alt="GitHub metrics" src="./assets/metrics.svg" width="100%" />
-</div>
-
-<br />
--->
-
-<img width="100%" alt="" src="./assets/divider.svg" />
-
-## Ask me about
-
-- Structuring **Django** and **FastAPI** projects for long-term maintainability
-- **Authentication and authorization** patterns, including stateless JWT with role checks
-- Building **AI-powered features** into real products and operations systems
-- Setting up **agentic coding workflows** with guardrails and review loops
-- Choosing between **Next.js, Nuxt, and HTMX-style** approaches for a given product
-- Writing **specifications and technical documentation** that clients actually read
-
-<br />
-
-<img width="100%" alt="" src="./assets/divider.svg" />
-
-## Content
-
-I share what I'm learning in public. On **TikTok** I run live coding sessions (live coding plus casual chat), and I'm building a series of short videos about software engineering, technology, and AI.
-
-[![Watch on TikTok](https://img.shields.io/badge/Watch%20live%20coding-TikTok-000000?style=flat-square&logo=tiktok&logoColor=white)](https://www.tiktok.com/@ariefmavlana)
-
-<br />
-
-## Currently
-
-- 🔭 Deepening my work in reliable full-stack applications, AI-assisted engineering workflows, and applied machine learning
-- 🌱 Refining reusable engineering guidance in **MAVL Skills**
-- 🎥 Experimenting with live coding as a way to learn in public
-- 💬 Open to thoughtful conversations about software engineering, developer experience, and building useful products
-
-<br />
-
-<img width="100%" alt="" src="./assets/divider.svg" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ariefmavlana/ariefmavlana/output/github-snake-dark.svg?v=2" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ariefmavlana/ariefmavlana/output/github-snake.svg?v=2" />
+  <img width="100%" alt="Animated snake tracing my GitHub contribution graph" src="https://raw.githubusercontent.com/ariefmavlana/ariefmavlana/output/github-snake.svg?v=2" />
+</picture>
 
 ## Let's connect
 
-<div align="center">
+For conversations about **full-stack development, applied AI, and web products**, reach me on [LinkedIn](https://www.linkedin.com/in/arief-maulana-330142137). You can explore more work at [mavlana.space](https://mavlana.space).
 
-[![Portfolio](https://img.shields.io/badge/mavlana.space-visit-1f6feb?style=flat-square&logo=googlechrome&logoColor=white)](https://mavlana.space)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-connect-0a66c2?style=flat-square)](https://www.linkedin.com/in/arief-maulana-330142137)
-[![TikTok](https://img.shields.io/badge/TikTok-follow-000000?style=flat-square&logo=tiktok&logoColor=white)](https://www.tiktok.com/@ariefmavlana)
-
-<sub>Thanks for stopping by. If something here is useful to you, a ⭐ on the repo means a lot.</sub>
-
-<img width="100%" alt="" src="./assets/divider.svg" />
-
-</div>
+I also share live coding and what I'm learning on [TikTok](https://www.tiktok.com/@ariefmavlana).
 
 <!--
-  QUARTERLY CHECKLIST
-  [ ] "Currently" and "On my radar" still true?
-  [ ] Links resolve: portfolio, LinkedIn, TikTok, MAVL Skills?
-  [ ] Header, stack summary, dividers, snake, skill icons, and badges still render?
+  REVIEW QUARTERLY
+  [ ] Project descriptions and technical focus still reflect my work?
+  [ ] Portfolio, LinkedIn, project demos, and source links resolve?
+  [ ] Stock Tracker demo status updated after a fresh check?
+  [ ] Header, previews, stack summary, and snake render in both themes and on mobile?
   [ ] Contribution snake refreshed with node scripts/update-snake.mjs?
-  [ ] Stack icons match what I actually use today?
-  [ ] Pinned repositories reflect my best current work?
-  [ ] Nothing confidential (client names, internal systems) has crept in?
-  [ ] Year/version references updated?
+  [ ] Pinned repositories reflect the work I want visitors to explore first?
 -->

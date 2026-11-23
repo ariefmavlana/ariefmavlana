@@ -24,8 +24,8 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
+            dist/github-snake.svg?color_snake=%23526b50&color_dots=%23f6f5f1,%23cbd7c4,%239bad8f,%236f8864,%23475f42
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=%23a4bc98&color_dots=%23161b18,%2339433b,%235e7559,%238ba17d,%23b6cba7
 
       - name: Verify the SVGs were generated
         run: |

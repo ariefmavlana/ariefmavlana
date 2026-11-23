@@ -55,8 +55,8 @@ try {
       GITHUB_TOKEN: token,
       INPUT_GITHUB_USER_NAME: 'ariefmavlana',
       INPUT_OUTPUTS: [
-        join(output, 'github-snake.svg').replaceAll('\\', '/'),
-        `${join(output, 'github-snake-dark.svg').replaceAll('\\', '/')}?palette=github-dark`,
+        `${join(output, 'github-snake.svg').replaceAll('\\', '/')}?color_snake=%23526b50&color_dots=%23f6f5f1,%23cbd7c4,%239bad8f,%236f8864,%23475f42`,
+        `${join(output, 'github-snake-dark.svg').replaceAll('\\', '/')}?palette=github-dark&color_snake=%23a4bc98&color_dots=%23161b18,%2339433b,%235e7559,%238ba17d,%23b6cba7`,
       ].join('\n'),
     },
   });

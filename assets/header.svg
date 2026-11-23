@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-labelledby="title description">
   <title id="title">Arief Maulana — Full-Stack Developer</title>
-  <desc id="description">Based in Bandung, Indonesia. Interfaces, APIs, and the systems behind them. mavlana.space.</desc>
+  <desc id="description">Based in Bandung, Indonesia. Web applications, from interface to deployment. mavlana.space.</desc>
   <style>
     .surface { fill: #f6f5f1; }
     .ink { fill: #222824; }
@@ -21,8 +21,8 @@
   <text class="muted" x="60" y="51" font-size="16" font-weight="600" letter-spacing="1.6">FULL-STACK DEVELOPER</text>
   <text class="muted" x="956" y="51" font-size="16" text-anchor="end">Bandung, Indonesia</text>
   <text class="ink" x="40" y="147" font-size="80" font-weight="600" letter-spacing="-3">Arief Maulana</text>
-  <text class="muted" x="44" y="191" font-size="23">Interfaces, APIs, and the systems behind them.</text>
+  <text class="muted" x="44" y="191" font-size="23">Web applications, from interface to deployment.</text>
   <path class="rule" d="M44 225H956" fill="none"/>
-  <text class="muted" x="44" y="263" font-size="17">Python · TypeScript · AI engineering</text>
+  <text class="muted" x="44" y="263" font-size="17">Python · TypeScript · Applied AI</text>
   <text class="ink" x="956" y="263" font-size="17" font-weight="600" text-anchor="end">mavlana.space</text>
 </svg>
