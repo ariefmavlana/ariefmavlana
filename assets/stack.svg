@@ -14,6 +14,11 @@
       .rule { stroke: #39443b; }
       .accent { fill: #a4bc98; }
     }
+    .track { transform: scaleX(0); animation: progress 12s linear infinite; }
+    .second { animation-delay: 4s; }
+    .third { animation-delay: 8s; }
+    @keyframes progress { 0% { transform: scaleX(0); } 30%, 32% { transform: scaleX(1); } 33%, 100% { transform: scaleX(0); } }
+    @media (prefers-reduced-motion: reduce) { .track { animation: none; } }
   </style>
   <rect class="surface" width="1000" height="112" rx="4"/>
   <path class="rule" d="M346 26V86M666 26V86" fill="none"/>
@@ -27,4 +32,7 @@
     <text x="370" y="75">TypeScript · React · Next.js</text>
     <text x="690" y="75">PostgreSQL · Docker · Linux</text>
   </g>
+  <g transform="translate(44 92)"><rect class="accent track" width="278" height="2"/></g>
+  <g transform="translate(370 92)"><rect class="accent track second" width="272" height="2"/></g>
+  <g transform="translate(690 92)"><rect class="accent track third" width="266" height="2"/></g>
 </svg>

@@ -1,7 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="8" viewBox="0 0 1000 8" role="presentation" aria-hidden="true">
   <style>
-    path { stroke: #d4d9d2; }
-    @media (prefers-color-scheme: dark) { path { stroke: #39443b; } }
+    .line { stroke: #d4d9d2; }
+    .sweep { fill: #526b50; animation: sweep 10s ease-in-out infinite; }
+    @keyframes sweep { 0%, 12% { transform: translateX(0); opacity: 0; } 22%, 78% { opacity: 1; } 90%, 100% { transform: translateX(936px); opacity: 0; } }
+    @media (prefers-color-scheme: dark) { .line { stroke: #39443b; } .sweep { fill: #a4bc98; } }
+    @media (prefers-reduced-motion: reduce) { .sweep { animation: none; opacity: 0; } }
   </style>
-  <path d="M0 4H1000" fill="none"/>
+  <path class="line" d="M0 4H1000" fill="none"/>
+  <rect class="sweep" y="3" width="64" height="2"/>
 </svg>

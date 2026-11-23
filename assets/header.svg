@@ -15,14 +15,28 @@
       .rule { stroke: #39443b; }
       .accent { fill: #a4bc98; }
     }
+    .name { animation: enter 700ms ease-out both; }
+    .primary { animation: primary 16s ease-in-out infinite; }
+    .secondary { opacity: 0; animation: secondary 16s ease-in-out infinite; }
+    .sweep { animation: sweep 9s ease-in-out infinite; }
+    @keyframes enter { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes primary { 0%, 40%, 100% { opacity: 1; } 44%, 98% { opacity: 0; } }
+    @keyframes secondary { 0%, 46%, 96%, 100% { opacity: 0; } 50%, 92% { opacity: 1; } }
+    @keyframes sweep { 0%, 15% { transform: translateX(0); opacity: 0; } 25%, 75% { opacity: 1; } 90%, 100% { transform: translateX(868px); opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) {
+      .name, .primary, .secondary, .sweep { animation: none; }
+      .sweep { opacity: 0; }
+    }
   </style>
   <rect class="surface" width="1000" height="300" rx="4"/>
   <rect class="accent" x="44" y="38" width="4" height="16"/>
   <text class="muted" x="60" y="51" font-size="16" font-weight="600" letter-spacing="1.6">FULL-STACK DEVELOPER</text>
   <text class="muted" x="956" y="51" font-size="16" text-anchor="end">Bandung, Indonesia</text>
-  <text class="ink" x="40" y="147" font-size="80" font-weight="600" letter-spacing="-3">Arief Maulana</text>
-  <text class="muted" x="44" y="191" font-size="23">Web applications, from interface to deployment.</text>
+  <text class="ink name" x="40" y="147" font-size="80" font-weight="600" letter-spacing="-3">Arief Maulana</text>
+  <text class="muted primary" x="44" y="191" font-size="23">Web applications, from interface to deployment.</text>
+  <text class="muted secondary" x="44" y="191" font-size="23" aria-hidden="true">Full-stack systems and applied AI.</text>
   <path class="rule" d="M44 225H956" fill="none"/>
+  <rect class="accent sweep" x="44" y="224" width="44" height="2"/>
   <text class="muted" x="44" y="263" font-size="17">Python · TypeScript · Applied AI</text>
   <text class="ink" x="956" y="263" font-size="17" font-weight="600" text-anchor="end">mavlana.space</text>
 </svg>
