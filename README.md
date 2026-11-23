@@ -1,11 +1,13 @@
+<!-- SVG URLs are pinned to their asset commit to avoid stale GitHub image caches. Update the revision when changing these SVGs. -->
+
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/header-mobile.svg" />
-  <img width="100%" alt="Arief Maulana — Full-Stack Developer, Bandung, Indonesia" src="./assets/header.svg" />
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/ariefmavlana/ariefmavlana/337fa12eb599f29ec258e6b37f8d68c2be90b1e1/assets/header-mobile.svg" />
+  <img width="100%" alt="Arief Maulana — Full-Stack Developer, Bandung, Indonesia" src="https://raw.githubusercontent.com/ariefmavlana/ariefmavlana/337fa12eb599f29ec258e6b37f8d68c2be90b1e1/assets/header.svg" />
 </picture>
 
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/stack-mobile.svg" />
-  <img width="100%" alt="Animated tech stack: Python, TypeScript, React, Next.js, Vue, Nuxt, Tailwind CSS, GSAP, Django, FastAPI, Node.js, PostgreSQL, SQLAlchemy, Prisma, Docker, MCP" src="./assets/stack.svg" />
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/ariefmavlana/ariefmavlana/337fa12eb599f29ec258e6b37f8d68c2be90b1e1/assets/stack-mobile.svg" />
+  <img width="100%" alt="Animated tech stack: Python, TypeScript, React, Next.js, Vue, Nuxt, Tailwind CSS, GSAP, Django, FastAPI, Node.js, PostgreSQL, SQLAlchemy, Prisma, Docker, MCP" src="https://raw.githubusercontent.com/ariefmavlana/ariefmavlana/337fa12eb599f29ec258e6b37f8d68c2be90b1e1/assets/stack.svg" />
 </picture>
 
 [**Portfolio**](https://mavlana.space) · [LinkedIn](https://www.linkedin.com/in/arief-maulana-330142137) · [Repositories](https://github.com/ariefmavlana?tab=repositories)
@@ -36,7 +38,7 @@ I build **web applications with Python and TypeScript**, from interfaces and API
 
 </details>
 
-<img width="100%" alt="" src="./assets/divider.svg" />
+<img width="100%" alt="" src="https://raw.githubusercontent.com/ariefmavlana/ariefmavlana/337fa12eb599f29ec258e6b37f8d68c2be90b1e1/assets/divider.svg" />
 
 ## How I work
 
@@ -44,7 +46,7 @@ I build **web applications with Python and TypeScript**, from interfaces and API
 - Verify changes with focused tests, builds, and review.
 - Use AI agents with repository context and explicit requirements; review what ships.
 
-<img width="100%" alt="" src="./assets/divider.svg" />
+<img width="100%" alt="" src="https://raw.githubusercontent.com/ariefmavlana/ariefmavlana/337fa12eb599f29ec258e6b37f8d68c2be90b1e1/assets/divider.svg" />
 
 ## Activity
 
@@ -56,7 +58,7 @@ I build **web applications with Python and TypeScript**, from interfaces and API
   <img width="100%" alt="Animated snake tracing my GitHub contribution graph" src="https://raw.githubusercontent.com/ariefmavlana/ariefmavlana/output/github-snake.svg?v=3" />
 </picture>
 
-<img width="100%" alt="" src="./assets/divider.svg" />
+<img width="100%" alt="" src="https://raw.githubusercontent.com/ariefmavlana/ariefmavlana/337fa12eb599f29ec258e6b37f8d68c2be90b1e1/assets/divider.svg" />
 
 ## Let's connect
 
