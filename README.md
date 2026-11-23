@@ -7,9 +7,15 @@
 
 <div align="center">
 
-<img width="100%" alt="Arief Maulana — Full-Stack Developer (animated banner)" src="./assets/header.svg" />
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/header-mobile.svg" />
+  <img width="100%" alt="Arief Maulana — Full-Stack Developer, Bandung, Indonesia" src="./assets/header.svg" />
+</picture>
 
-<img width="100%" alt="Animated list of technologies I work with" src="./assets/stack-marquee.svg" />
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/stack-mobile.svg" />
+  <img width="100%" alt="Core stack: Python, Django, FastAPI, TypeScript, React, Next.js, PostgreSQL, Docker, Linux" src="./assets/stack.svg" />
+</picture>
 
 <br />
 
@@ -36,9 +42,9 @@
 
 ## About
 
-I'm a **full-stack developer** based in **Bandung, Indonesia**. I build web products and internal systems that stay understandable as they grow: clear boundaries between frontend, backend, data, and deployment, plus documentation a new teammate can actually use.
+I'm **Arief Maulana**, a **full-stack developer** based in **Bandung, Indonesia**. I build web applications, from interfaces and APIs to data models and deployment, with an emphasis on maintainability and a clear user experience.
 
-Most of my recent work sits where **product engineering meets AI**: AI-powered operations tooling, agentic workflows, and the engineering guidance that helps teams ship them with confidence. I also explore **applied machine learning** and **IoT** on the side, because hardware and data keep teaching me things software alone doesn't.
+My work spans event platforms, business websites, and web applications. I also develop **AI-assisted engineering workflows** and reusable guidance through [MAVL Skills](https://github.com/ariefmavlana/mavl-skills), while exploring **applied machine learning** and **IoT**.
 
 | | |
 | :-- | :-- |
@@ -66,7 +72,7 @@ Most of my recent work sits where **product engineering meets AI**: AI-powered o
     </td>
     <td width="33%" valign="top">
       <h3>🤖 AI-enabled development</h3>
-      Agent workflows, reusable engineering guidance, and tooling that make teams faster without making them sloppy.
+      Agent workflows, reusable engineering guidance, and tooling with explicit requirements, verification, and review.
     </td>
   </tr>
 </table>
@@ -144,12 +150,20 @@ Docker · Nginx · Linux · Git · GitHub Actions · `uv` · `pnpm` · `bun` · 
 
 ## Selected work
 
-| Project | What it is |
-| :-- | :-- |
-| [**MAVL Skills**](https://github.com/ariefmavlana/mavl-skills) | A public, versioned set of full-stack and AI-engineering practices for modern application development. |
-| [**Personal portfolio**](https://mavlana.space) | My portfolio site: React, TypeScript, Tailwind, and 3D elements, built with a deliberate design system. |
-| **AI-powered operations tooling** | Client-facing systems for enterprise teams in Indonesia that combine web applications with AI assistants. Details are under NDA, so I can only discuss them in general terms. |
-| [**More on my profile**](https://github.com/ariefmavlana?tab=repositories) | The pinned repositories are the best place to see my product work and technical learning in context. |
+Projects from my [portfolio](https://mavlana.space), with website and source links where available.
+
+| Project | What it does | Explore |
+| :-- | :-- | :-- |
+| **Celeparty** | Event platform bringing together event tickets, equipment rentals, and vendor services. | [Website](https://celeparty.com/) |
+| **Kadatuan Koffie** | Coffee brand website presenting Java Preanger products, coffee origins, and sustainable farming practices. | [Website](https://kadatuan-koffie.vercel.app/) |
+| **inPrime Studio** | Photography and film studio portfolio showcasing selected work and visual production services. | [Website](https://inprime-studio.vercel.app/) |
+| **Mavlana Car Dealer** | Vehicle catalog website built with TypeScript and Next.js, with Cloudflare tooling. | [Source](https://github.com/ariefmavlana/mavlana-cardealer) |
+| **Mavlana Weather** | Weather application built with Next.js and the OpenWeather API. | [Demo](https://mavlana-weather.vercel.app/) · [Source](https://github.com/ariefmavlana/mavlana-weather) |
+| **Mavlana Coin** | Cryptocurrency price and trend tracker built with Next.js and Tailwind CSS. | [Source](https://github.com/ariefmavlana/mavlana-coin) |
+| **MAVL Skills** | Versioned engineering practices and reusable guidance for full-stack and AI-assisted development. | [Source](https://github.com/ariefmavlana/mavl-skills) |
+| **Personal portfolio** | React, JavaScript, Tailwind CSS, and Three.js portfolio. | [Website](https://mavlana.space) · [Source](https://github.com/ariefmavlana/mavlana-arief) |
+
+[Browse more repositories →](https://github.com/ariefmavlana?tab=repositories)
 
 <details>
 <summary><b>On my radar</b></summary>
@@ -191,8 +205,8 @@ I treat AI coding agents as part of the engineering toolchain, with the same exp
 - **Role-based agent setups:** a lead → coder → reviewer hierarchy, so planning, implementation, and review stay separate.
 - **MCP servers in daily use:** context7 for up-to-date library docs, git, sequential-thinking, and PostgreSQL.
 - **Reusable skills and guidance:** a library of engineering practices that agents follow, which is the idea behind [MAVL Skills](https://github.com/ariefmavlana/mavl-skills).
-- **Guardrails over vibes:** explicit definitions of done, validation criteria, and review before merge. AI speeds up the work, but I stay accountable for the result.
-- **UI quality bar:** deliberate design systems so interfaces don't end up with the generic "AI-generated" look.
+- **Verification and review:** explicit definitions of done, validation criteria, and review before merge. I stay accountable for the result.
+- **UI quality bar:** consistent typography, spacing, interaction, and accessibility, reviewed against the needs of each product.
 
 </details>
 
@@ -202,11 +216,13 @@ I treat AI coding agents as part of the engineering toolchain, with the same exp
 
 ## Contribution snake
 
+<!-- Refresh from the repository root with Node.js 24+: node scripts/update-snake.mjs. GitHub authentication and a configured Git commit identity are required. Publishes generated SVGs to origin/output without GitHub Actions. -->
+
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ariefmavlana/ariefmavlana/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ariefmavlana/ariefmavlana/output/github-snake.svg" />
-    <img alt="Animated snake eating my GitHub contribution graph" src="https://raw.githubusercontent.com/ariefmavlana/ariefmavlana/output/github-snake.svg" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ariefmavlana/ariefmavlana/output/github-snake-dark.svg?v=1" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ariefmavlana/ariefmavlana/output/github-snake.svg?v=1" />
+    <img alt="Animated snake eating my GitHub contribution graph" src="https://raw.githubusercontent.com/ariefmavlana/ariefmavlana/output/github-snake.svg?v=1" width="100%" />
   </picture>
 </div>
 
@@ -272,7 +288,7 @@ I share what I'm learning in public. On **TikTok** I run live coding sessions (l
 
 <sub>Thanks for stopping by. If something here is useful to you, a ⭐ on the repo means a lot.</sub>
 
-<img width="100%" alt="" src="https://capsule-render.vercel.app/api?type=waving&color=0:1f6feb,100:0d1117&height=100&section=footer" />
+<img width="100%" alt="" src="./assets/divider.svg" />
 
 </div>
 
@@ -280,8 +296,8 @@ I share what I'm learning in public. On **TikTok** I run live coding sessions (l
   QUARTERLY CHECKLIST
   [ ] "Currently" and "On my radar" still true?
   [ ] Links resolve: portfolio, LinkedIn, TikTok, MAVL Skills?
-  [ ] Animated header, marquee, divider, snake, skill icons, and badges still render?
-  [ ] Snake workflow still passing (Actions tab)?
+  [ ] Header, stack summary, dividers, snake, skill icons, and badges still render?
+  [ ] Contribution snake refreshed with node scripts/update-snake.mjs?
   [ ] Stack icons match what I actually use today?
   [ ] Pinned repositories reflect my best current work?
   [ ] Nothing confidential (client names, internal systems) has crept in?

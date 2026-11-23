@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="230" viewBox="0 0 600 230" role="img" aria-labelledby="title">
+  <title id="title">Core stack: Python, Django, FastAPI, TypeScript, React, Next.js, PostgreSQL, Docker, Linux</title>
+  <style>
+    .surface { fill: #f6f5f1; }
+    .ink { fill: #222824; }
+    .muted { fill: #576159; }
+    .rule { stroke: #d4d9d2; }
+    .accent { fill: #526b50; }
+    text { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; }
+    @media (prefers-color-scheme: dark) {
+      .surface { fill: #161b18; }
+      .ink { fill: #f1f3ed; }
+      .muted { fill: #b1bcb1; }
+      .rule { stroke: #39443b; }
+      .accent { fill: #a4bc98; }
+    }
+  </style>
+  <rect class="surface" width="600" height="230" rx="4"/>
+  <path class="rule" d="M28 81H572M28 151H572" fill="none"/>
+  <g class="muted" font-size="15" font-weight="600" letter-spacing="1">
+    <text x="28" y="35">BACKEND</text>
+    <text x="28" y="105">FRONTEND</text>
+    <text x="28" y="175">DATA &amp; DELIVERY</text>
+  </g>
+  <g class="ink" font-size="23">
+    <text x="28" y="64">Python · Django · FastAPI</text>
+    <text x="28" y="134">TypeScript · React · Next.js</text>
+    <text x="28" y="204">PostgreSQL · Docker · Linux</text>
+  </g>
+</svg>

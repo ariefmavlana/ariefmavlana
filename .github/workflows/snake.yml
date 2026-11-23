@@ -1,20 +1,11 @@
 # Generates an animated "snake eats your contributions" SVG (light + dark)
 # and publishes it to a branch called `output`, which the README references.
 #
-# Requirements (one-time):
-#   Repo -> Settings -> Actions -> General -> Workflow permissions
-#   -> select "Read and write permissions" -> Save
-#
-# This version publishes with plain git and the built-in GITHUB_TOKEN,
-# so it has no third-party deploy action that could break or be deprecated.
+# Optional manual alternative to `node scripts/update-snake.mjs`.
 name: Generate contribution snake
 
 on:
-  schedule:
-    - cron: "0 */12 * * *"   # every 12 hours
   workflow_dispatch:          # manual run button in the Actions tab
-  push:
-    branches: [main, master]
 
 permissions:
   contents: write
