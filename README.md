@@ -6,8 +6,8 @@
 </picture>
 
 <picture>
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/ariefmavlana/ariefmavlana/337fa12eb599f29ec258e6b37f8d68c2be90b1e1/assets/stack-mobile.svg" />
-  <img width="100%" alt="Animated tech stack: Python, TypeScript, React, Next.js, Vue, Nuxt, Tailwind CSS, GSAP, Django, FastAPI, Node.js, PostgreSQL, SQLAlchemy, Prisma, Docker, MCP" src="https://raw.githubusercontent.com/ariefmavlana/ariefmavlana/337fa12eb599f29ec258e6b37f8d68c2be90b1e1/assets/stack.svg" />
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/ariefmavlana/ariefmavlana/0f41dcf2059daa5fc23c28b14a77f80799ee4b8f/assets/stack-mobile.svg" />
+  <img width="100%" alt="Animated tech stack icons: Python, TypeScript, React, Next.js, Vue, Nuxt, Tailwind CSS, GSAP, Django, FastAPI, Node.js, PostgreSQL, SQLAlchemy, Prisma, Docker, MCP" src="https://raw.githubusercontent.com/ariefmavlana/ariefmavlana/0f41dcf2059daa5fc23c28b14a77f80799ee4b8f/assets/stack.svg" />
 </picture>
 
 [**Portfolio**](https://mavlana.space) · [LinkedIn](https://www.linkedin.com/in/arief-maulana-330142137) · [Repositories](https://github.com/ariefmavlana?tab=repositories)
